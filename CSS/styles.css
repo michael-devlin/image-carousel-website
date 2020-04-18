@@ -16,3 +16,25 @@ div {}
 hr {}
 
 p {}
+
+.top-container {
+  background-color: #364f6b;
+  padding-top: 50px;
+  position: relative;
+  padding-bottom: 50px;
+}
+
+.middle-container {
+  margin: auto;
+  background-color: #e4f9f5;
+  padding-bottom: 50px;
+}
+
+.bottom-container {
+  background-color: #364f6b;
+  padding: 80px 0px 20px;
+}
+
+.meditating {
+  width: 50%;
+}
