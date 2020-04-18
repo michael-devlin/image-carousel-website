@@ -50,15 +50,27 @@ p {}
   padding-bottom: 50px;
 }
 
+.about-me {
+  width: 50%;
+  margin: 80px auto 80px auto;
+  text-align: left;
+}
+
+
 .bottom-container {
   background-color: #0d7377;
   padding: 80px 0px 20px;
 }
 
+
 .meditating {
   width: 50%;
+  float: right;
+margin-top: -20px;
 }
 
 .coding {
   width: 30%;
+  float: left;
+  margin-right: 35px;
 }
