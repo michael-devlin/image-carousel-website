@@ -30,12 +30,16 @@ h3 {
   font-weight: normal;
 
 }
+  hr {
+    border: dotted #66BFBF 5px;
+    border-bottom: none;
+    width: 7%;
+    margin: 100 auto 100 auto;
+  }
 
-div {}
-
-hr {}
-
-p {}
+  p {
+    line-height: 1.8;
+  }
 
 .top-container {
   background-color: #0d7377;
