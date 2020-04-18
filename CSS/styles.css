@@ -49,12 +49,18 @@ p {
   padding-bottom: 50px;
 }
 
+.introduction {
+  width: 25%;
+  margin: auto;
+  color: #e4f9f5;
+}
+
+
 .middle-container {
   margin: auto;
  background-color: #e4f9f5;
  padding-bottom: 50px;
 }
-
 
 .about-me {
   width: 50%;
@@ -64,9 +70,15 @@ p {
 
 .why-coding {
   width: 50%;
-  margin: 50px auto 50px auto;
+  margin: 80px auto 80px auto;
+  text-align: left;
 }
 
+.founders-and-coders {
+  width: 50%;
+  margin: 50px auto 50px auto;
+
+}
 
 .bottom-container {
   background-color: #0d7377;
