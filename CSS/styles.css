@@ -30,16 +30,17 @@ h3 {
   font-weight: normal;
 
 }
-  hr {
-    border: dotted #66BFBF 5px;
-    border-bottom: none;
-    width: 7%;
-    margin: 100 auto 100 auto;
-  }
 
-  p {
-    line-height: 1.8;
-  }
+hr {
+  border: dotted #66BFBF 5px;
+  border-bottom: none;
+  width: 7%;
+  margin: 100 auto 100 auto;
+}
+
+p {
+  line-height: 1.8;
+}
 
 .top-container {
   background-color: #0d7377;
@@ -50,14 +51,20 @@ h3 {
 
 .middle-container {
   margin: auto;
-  background-color: #e4f9f5;
-  padding-bottom: 50px;
+ background-color: #e4f9f5;
+ padding-bottom: 50px;
 }
+
 
 .about-me {
   width: 50%;
   margin: 80px auto 80px auto;
   text-align: left;
+}
+
+.why-coding {
+  width: 50%;
+  margin: 50px auto 50px auto;
 }
 
 
