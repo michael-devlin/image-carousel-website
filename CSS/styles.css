@@ -50,11 +50,22 @@ p {
 }
 
 .container {
-
+  width: 80%;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
 }
 
 .img-carousel-container {
-  
+  width: 100%;
+height: 400px;
+position: relative;
+}
+
+.carousel {
+  padding: 0;
+  margin: 0;
+  list-style: none;
 }
 
 .introduction {
