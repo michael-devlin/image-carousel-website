@@ -21,7 +21,7 @@ h2 {
   color: #0d7377;
   font-weight: normal;
   text-align: center;
-  padding-bottom: 7px;
+  padding-bottom: 10px;
 }
 
 h3 {
@@ -63,22 +63,21 @@ p {
 }
 
 .about-me {
-  width: 70%;
-  margin: 80px auto 80px auto;
-  text-align: left;
+  margin-bottom: -4px;
 }
 
-.why-coding {
-  width: 50%;
+.background-coding{
+  width: 70%;
   margin: 80px auto 80px auto;
   text-align: left;
 }
 
 .founders-and-coders {
   width: 50%;
-  margin: 50px auto 50px auto;
-
+  margin: 80px auto 80px auto;
+  text-align: left;
 }
+
 
 .bottom-container {
   background-color: #0d7377;
