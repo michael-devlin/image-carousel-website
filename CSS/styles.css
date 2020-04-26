@@ -128,7 +128,7 @@ nav {
   width: 50px;
   background: #00000036;
   position: absolute;
-  left: 100px;
+  left: 40px;
   z-index: 1;
   transition: background 0.5s;
   height: 72px;
@@ -140,13 +140,15 @@ nav {
 
 .right-btn {
   left: auto;
-  right: 100px;
+  right: 40px;
   position: absolute;
   z-index: 1;
   background: #00000036;
   height: 72px;
   width: 50px;
   top: 50%;
+  transform: translateY(-50%);
+  transition: background 0.5s;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
   border-top-right-radius: 10px;
