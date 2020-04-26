@@ -58,7 +58,7 @@ p {
     max-width: 1000px;
     margin: auto;
     user-select: none;
-    box-shadow: 0px 0px 3px 1px
+    box-shadow: 0px 0px 3px 1px #00000078;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -125,11 +125,37 @@ nav {
 }
 
 .left-btn {
-  left: -35px;
+  width: 50px;
+  background: #00000036;
+  position: absolute;
+  left: 0;
+  z-index: 1;
+  transition: background 0.5s;
+  height: 72px;
+  top: 50%;
+  transform: translateY(-50%);
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
 .right-btn {
-  right: -35px;
+  left: auto;
+  right: 0;
+  z-index: 1;
+  background: #00000036;
+  height: 72px;
+  width: 50px;
+  top: 50%;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+
+.left-btn:hover, .right-btn:hover{
+    background: #000000a8;
+    cursor: pointer;
 }
 
 .middle-container {
