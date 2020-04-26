@@ -125,10 +125,10 @@ nav {
 }
 
 .left-btn {
-  width: 90px;
+  width: 50px;
   background: #00000036;
   position: absolute;
-  left: 120px;
+  left: 400px;
   z-index: 1;
   transition: background 0.5s;
   height: 72px;
@@ -140,7 +140,7 @@ nav {
 
 .right-btn {
   left: auto;
-  right: 90px;
+  right: 400px;
   z-index: 1;
   background: #00000036;
   height: 72px;
