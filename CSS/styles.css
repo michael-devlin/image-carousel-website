@@ -53,7 +53,7 @@ p {
 }
 
 .img-carousel-container{
-    width: 90%;
+    width: 95%;
     height: 600px;
     max-width: 1000px;
     margin: auto;
@@ -128,7 +128,7 @@ nav {
   width: 50px;
   background: #00000036;
   position: absolute;
-  left: 40px;
+  left: 10px;
   z-index: 1;
   transition: background 0.5s;
   height: 72px;
@@ -140,7 +140,7 @@ nav {
 
 .right-btn {
   left: auto;
-  right: 40px;
+  right: 10px;
   position: absolute;
   z-index: 1;
   background: #00000036;
