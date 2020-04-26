@@ -128,7 +128,7 @@ nav {
   width: 50px;
   background: #00000036;
   position: absolute;
-  left: 400px;
+  left: 100px;
   z-index: 1;
   transition: background 0.5s;
   height: 72px;
@@ -140,7 +140,8 @@ nav {
 
 .right-btn {
   left: auto;
-  right: 400px;
+  right: 100px;
+  position: absolute;
   z-index: 1;
   background: #00000036;
   height: 72px;
