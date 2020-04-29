@@ -15,18 +15,17 @@
     <h1 class="hello-world">Hello World, I'm Michael</h1>
 
 
-  <p>  <h3 class="introduction">A Publishing Editor based in London</h3>   </p>
+    <p>
+      <h3 class="introduction">A Publishing Editor based in London</h3>
+    </p>
 
 
     <div class="img-carousel-container">
       <div class="carousel">
         <div id="playPause"></div>
-        <button class="btn left-btn">
-          <img src="images/left-arrow.svg" alt="">
-        </button>
-        <button class="btn right-btn">
-          <img src="images/right-arrow.svg" alt="">
-        </button>
+        <button onclick="addSlides(-1)" class="nextPrevBtn left-btn"><span class="arrow arrowLeft"><img src="images/left-arrow.svg" alt=""></span></button>
+        <button onclick="addSlides(1)" class="nextPrevBtn right-btn"><span class="arrow arrowRight"><img src="images/right-arrow.svg" alt=""></span></button>
+
         <div class="slide">
           <img src="images/slide-image1.jpg" alt="">
         </div>
@@ -107,4 +106,5 @@
   </div>
 </body>
 <script src="javascript.js"></script>
+
 </html>
