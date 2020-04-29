@@ -140,46 +140,46 @@ border-bottom-right-radius: 10px;
 }
 
 
-.img-carousel-container .moveLeftCurrentSlide{
-    animation-name: moveLeftCurrent;
+.img-carousel-container .moveCurrentSlideLeft{
+    animation-name: moveCurrentSlideLeft;
     animation-duration: 0.5s;
     animation-timing-function: linear;
     animation-fill-mode:forwards;
 
 }
-.img-carousel-container .moveLeftNextSlide{
-    animation-name: moveLeftNext;
+.img-carousel-container .moveNextSlideLeft{
+    animation-name: moveNextLeft;
     animation-duration: 0.5s;
     animation-timing-function: linear;
     animation-fill-mode:forwards;
 }
-@keyframes moveLeftCurrent {
+@keyframes moveCurrentSlideLeft {
     from {margin-left: 0;opacity: 1;}
     to {margin-left: -100%;opacity: 1;}
 }
-@keyframes moveLeftNext {
+@keyframes moveNextLeft {
     from {margin-left: 100%;opacity: 1;}
     to {margin-left: 0%;opacity: 1;}
 }
 
 
-.img-carousel-container .moveRightCurrentSlide{
-    animation-name: moveRightCurrent;
+.img-carousel-container .moveCurrentSlideRight{
+    animation-name: moveCurrentSlideRight;
     animation-duration: 0.5s;
     animation-timing-function: linear;
     animation-fill-mode:forwards;
 }
-.img-carousel-container .moveRightPrevSlide{
-    animation-name: moveRightPrev;
+.img-carousel-container .movePrevSlideRight{
+    animation-name: movePrevRight;
     animation-duration: 0.5s;
     animation-timing-function: linear;
     animation-fill-mode:forwards;
 }
-@keyframes moveRightCurrent {
+@keyframes moveCurrentSlideRight {
     from {margin-left: 0;opacity: 1;}
     to {margin-left: 100%;opacity: 1;}
 }
-@keyframes moveRightPrev {
+@keyframes movePrevRight {
     from {margin-left: -100%;opacity: 1;}
     to {margin-left: 0%;opacity: 1;}
 }
