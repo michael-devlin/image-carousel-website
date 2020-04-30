@@ -228,8 +228,8 @@ border-bottom-right-radius: 10px;
 }
 
 .img-carousel-container .carousel #playPause {
-  width: 32px;
-  height: 32px;
+  width: 56px;
+  height: 56px;
   position: absolute;
   background-image: url(./../images/playPause.png);
   background-repeat: no-repeat;

@@ -1,11 +1,11 @@
 var indexOfSlides,slides;
-function startSlideshow(){
+function startOfSlideshow(){
     indexOfSlides = 0;
     slides=document.getElementsByClassName("slide");
     slides[indexOfSlides].style.opacity=1;
 
 }
-startSlideshow();
+startOfSlideshow();
 function addSlides(n) {
     slideMover(indexOfSlides+n);
 }
@@ -50,3 +50,15 @@ function timerStart(){
     },3000);
 }
 timerStart();
+
+function switchPlayPause() {
+    var switchBtnPlayPause=document.getElementById("playPause");
+    if(timer==null){
+        timerStart();
+
+    }else{
+        clearInterval(timer);
+        timer=null;
+
+    }
+}
