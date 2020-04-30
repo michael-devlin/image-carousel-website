@@ -193,7 +193,6 @@ border-bottom-right-radius: 10px;
 
 .left-btn {
   width: 50px;
-  background: #00000036;
   position: absolute;
   left: 0px;
   z-index: 1;
@@ -210,7 +209,6 @@ border-bottom-right-radius: 10px;
   right: 0px;
   position: absolute;
   z-index: 1;
-  background: #00000036;
   height: 72px;
   width: 50px;
   top: 50%;
@@ -223,7 +221,6 @@ border-bottom-right-radius: 10px;
 }
 
 .left-btn:hover, .right-btn:hover {
-  background: #000000a8;
   cursor: pointer;
 }
 
