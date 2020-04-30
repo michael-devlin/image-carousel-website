@@ -42,3 +42,11 @@ function slideMover(n){
     }
 
 }
+
+var timer=null;
+function timerStart(){
+    timer=setInterval(function () {
+        addSlides(1) ;
+    },3000);
+}
+timerStart();
