@@ -47,7 +47,7 @@ var timer=null;
 function timerStart(){
     timer=setInterval(function () {
         addSlides(1) ;
-    },3000);
+    },2000);
 }
 timerStart();
 
