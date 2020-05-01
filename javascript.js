@@ -43,6 +43,14 @@ function slideMover(n){
 
 }
 
+window.addEventListener('keyup', (event) => {
+    if(event.which == 37){
+        slideMover(indexOfSlides - 1);
+    }else if(event.which == 39){
+        slideMover(indexOfSlides + 1);
+    }
+});
+
 var timer=null;
 function timerStart(){
     timer=setInterval(function () {
