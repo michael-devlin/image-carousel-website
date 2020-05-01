@@ -52,12 +52,12 @@ p {
 }
 
 .img-carousel-container {
-  width: 85%;
+  width: 70%;
   height: 600px;
   max-width: 1000px;
   margin: auto;
   user-select: none;
-  box-shadow: 0px 0px 3px 1px #00000078;
+  box-shadow: 0 0 3px 1px #00000078;
   padding: 10px;
   box-sizing: border-box;
 }
@@ -81,36 +81,11 @@ p {
   height: 100%;
 }
 
-nav {
-  width: 100%;
-  height: 10%;
-  padding-top: 20px;
-  display: flex;
-  justify-content: center;
-  box-sizing: border-box;
-}
-
-.nav .dot {
-  background: rgba(255, 255, 255, 0.3);
-  border: none;
-  width: 15px;
-  height: 15px;
-  border-radius: 50%;
-  margin: 8px 10px;
-  cursor: pointer;
-  display: inline-block;
-}
-
-.dot.active {
-  background: rgba(255, 255, 255, 1);
-}
-
-
 .img-carousel-container .carousel .left-btn,.img-carousel-container .carousel .right-btn{
   width: 50px;
   background: #00000036;
   position: absolute;
-  left: 0px;
+  left: 0;
   z-index: 1;
   transition: background 0.5s;
   height: 72px;
@@ -119,9 +94,10 @@ nav {
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+
 .img-carousel-container .carousel .right-btn{
-  left: auto;
-right: 0px;
+left: auto;
+right: 0;
 position: absolute;
 z-index: 1;
 background: #00000036;
@@ -130,16 +106,16 @@ width: 50px;
 top: 50%;
 transform: translateY(-50%);
 transition: background 0.5s;
-border-top-left-radius: 0px;
-border-bottom-left-radius: 0px;
+border-top-left-radius: 0;
+border-bottom-left-radius: 0;
 border-top-right-radius: 10px;
 border-bottom-right-radius: 10px;
 }
+
 .img-carousel-container .carousel .left-btn:hover,.img-carousel-container .carousel .right-btn:hover{
     background: #000000a8;
     cursor: pointer;
 }
-
 
 .img-carousel-container .moveCurrentSlideLeft{
     animation-name: moveCurrentSlideLeft;
@@ -155,14 +131,13 @@ border-bottom-right-radius: 10px;
     animation-fill-mode:forwards;
 }
 @keyframes moveCurrentSlideLeft {
-    from {margin-left: 0;opacity: 1;}
+    from {margin-left: 0; opacity: 1;}
     to {margin-left: -100%;opacity: 1;}
 }
 @keyframes moveNextLeft {
     from {margin-left: 100%;opacity: 1;}
-    to {margin-left: 0%;opacity: 1;}
+    to {margin-left: 0; opacity: 1;}
 }
-
 
 .img-carousel-container .moveCurrentSlideRight{
     animation-name: moveCurrentSlideRight;
@@ -177,12 +152,12 @@ border-bottom-right-radius: 10px;
     animation-fill-mode:forwards;
 }
 @keyframes moveCurrentSlideRight {
-    from {margin-left: 0;opacity: 1;}
-    to {margin-left: 100%;opacity: 1;}
+    from {margin-left: 0; opacity: 1;}
+    to {margin-left: 100%; opacity: 1;}
 }
 @keyframes movePrevRight {
-    from {margin-left: -100%;opacity: 1;}
-    to {margin-left: 0%;opacity: 1;}
+    from {margin-left: -100%; opacity: 1;}
+    to {margin-left: 0; opacity: 1;}
 }
 
 .introduction {
@@ -191,11 +166,10 @@ border-bottom-right-radius: 10px;
   color: #e4f9f5;
 }
 
-
 .left-btn {
   width: 50px;
   position: absolute;
-  left: 0px;
+  left: 0;
   z-index: 1;
   transition: background 0.5s;
   height: 72px;
@@ -207,7 +181,7 @@ border-bottom-right-radius: 10px;
 
 .right-btn {
   left: auto;
-  right: 0px;
+  right: 0;
   position: absolute;
   z-index: 1;
   height: 72px;
@@ -215,8 +189,8 @@ border-bottom-right-radius: 10px;
   top: 50%;
   transform: translateY(-50%);
   transition: background 0.5s;
-  border-top-left-radius: 0px;
-  border-bottom-left-radius: 0px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -247,10 +221,22 @@ border-bottom-right-radius: 10px;
   margin-bottom: -2px;
 }
 
+.meditating {
+  width: 50%;
+  float: right;
+  margin-top: -50px;
+}
+
 .background-coding {
   width: 70%;
   margin: 80px auto 80px auto;
   text-align: left;
+}
+
+.coding {
+  width: 30%;
+  float: left;
+  margin-right: 35px;
 }
 
 .founders-and-coders {
@@ -261,20 +247,9 @@ border-bottom-right-radius: 10px;
 
 .bottom-container {
   background-color: #0d7377;
-  padding: 40px 0px 20px 0;
+  padding: 40px 0 20px 0;
 }
 
-.meditating {
-  width: 50%;
-  float: right;
-  margin-top: -50px;
-}
-
-.coding {
-  width: 30%;
-  float: left;
-  margin-right: 35px;
-}
 
 .button {
   background: #11CDD4;
@@ -291,9 +266,9 @@ border-bottom-right-radius: 10px;
   font-size: 40px;
   font-weight: 100;
   padding: 40px;
-  box-shadow: 1px 1px 20px 0px #000000;
-  -webkit-box-shadow: 1px 1px 20px 0px #000000;
-  -moz-box-shadow: 1px 1px 20px 0px #000000;
+  box-shadow: 1px 1px 20px 0 #000000;
+  -webkit-box-shadow: 1px 1px 20px 0 #000000;
+  -moz-box-shadow: 1px 1px 20px 0 #000000;
   text-shadow: 1px 1px 20px #000000;
   border: solid #337FED 1px;
   text-decoration: none;
