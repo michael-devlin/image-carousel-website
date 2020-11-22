@@ -46,11 +46,7 @@ a:link {
   background-color: transparent;
   text-decoration: none;
 }
-a:visited {
-  color: #0d7377;
-  background-color: transparent;
-  text-decoration: none;
-}
+
 a:hover {
   color: #e4f9f5;
   background-color: transparent;
